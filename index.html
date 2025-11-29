@@ -3,46 +3,129 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cine Nostalgia • 100 Clássicos Eternos</title>
+  <title>Cine Nostalgia • Clássicos Eternos</title>
   <style>
-    body {margin:0;background:#0b0b0b;color:#e6b800;font-family:'Georgia',serif;}
-    header {background:linear-gradient(to bottom,#1a0000,#000);padding:70px 20px;text-align:center;}
-    h1 {margin:0;font-size:3.8em;color:#ff3333;text-shadow:0 0 40px #ff0000;letter-spacing:6px;}
-    .subtitle {font-size:1.6em;margin-top:10px;opacity:0.9;}
-    .container {max-width:1400px;margin:0 auto;padding:20px;}
-    .grid {display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:30px;}
-    .filme {text-align:center;transition:.4s;}
-    .filme:hover {transform:translateY(-12px);}
-    .filme img {width:100%;border-radius:12px;box-shadow:0 15px 30px rgba(0,0,0,0.9);border:3px solid #4d1f00;}
-    .filme h3 {margin:12px 0 4px;font-size:1.25em;color:#ffd700;}
-    .filme p {margin:0;font-size:0.95em;color:#d4a574;}
-    footer {text-align:center;padding:50px;background:#000;margin-top:80px;color:#666;font-size:0.9em;}
+    body {margin:0;background:#000;color:#f4d03f;font-family:'Georgia',serif;}
+    header {background:linear-gradient(to bottom,#2c1810,#000);padding:50px 20px;text-align:center;}
+    h1 {margin:0;font-size:3em;text-shadow:0 0 20px #ff4500;letter-spacing:4px;}
+    .subtitle {font-size:1.3em;margin-top:5px;opacity:0.8;}
+    .container {max-width:1200px;margin:30px auto;padding:20px;}
+    .grid {display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;}
+    .filme {text-align:center;transition:0.3s;}
+    .filme:hover {transform:scale(1.05);}
+    .filme img {width:100%;border-radius:10px;box-shadow:0 8px 16px rgba(255,69,0,0.3);border:2px solid #8b4513;}
+    .filme h3 {margin:10px 0 5px;font-size:1.1em;color:#ffd700;}
+    .filme p {margin:0;font-size:0.9em;color:#cd853f;}
+    .filme a {color:#ff4500;text-decoration:none;}
+    footer {text-align:center;padding:30px;background:#111;color:#888;font-size:0.8em;}
   </style>
 </head>
 <body>
 <header>
   <h1>CINE NOSTALGIA</h1>
-  <p class="subtitle">100 filmes clássicos que nunca envelhecem</p>
+  <p class="subtitle">Clássicos que marcaram gerações</p>
 </header>
 
 <div class="container">
   <div class="grid">
-    <div class="filme"><img src="https://image.tmdb.org/t/p/w342/7IiTTaFI8v87WRz0iEhg4x8AIeI.jpg" alt="Metrópolis"><h3>Metrópolis</h3><p>1927 • Fritz Lang</p></div>
-    <div class="filme"><img src="https://image.tmdb.org/t/p/w342/6aW7oOmj3bU7KrRwyqZx8zZ0V5U.jpg" alt="Casablanca"><h3>Casablanca</h3><p>1942 • Michael Curtiz</p></div>
-    <div class="filme"><img src="https://image.tmdb.org/t/p/w342/bS0Fmb9i1BrZ2rP9aVBT8Yk7s5R.jpg" alt="Cidadão Kane"><h3>Cidadão Kane</h3><p>1941 • Orson Welles</p></div>
-    <div class="filme"><img src="https://image.tmdb.org/t/p/w342/7W0G3cDbRcSL9Q4MmeH1W3k2Y8b.jpg" alt="O Poderoso Chefão"><h3>O Poderoso Chefão</h3><p>1972 • F.F. Coppola</p></div>
-    <div class="filme"><img src="https://image.tmdb.org/t/p/w342/ve72VxNqjGM69Uky4WTo2bK6hf.jpg" alt="2001"><h3>2001: Uma Odisseia no Espaço</h3><p>1968 • Kubrick</p></div>
-    <div class="filme"><img src="https://image.tmdb.org/t/p/w342/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg" alt="Pulp Fiction"><h3>Pulp Fiction</h3><p>1994 • Tarantino</p></div>
-    <div class="filme"><img src="https://image.tmdb.org/t/p/w342/8UeYU4JebtSE0V8kZ7sLnh1xP4S.jpg" alt="Clube da Luta"><h3>Clube da Luta</h3><p>1999 • Fincher</p></div>
-    <div class="filme"><img src="https://image.tmdb.org/t/p/w342/sJNNMCc6B7KGIY6f24m9s4LGYfT.jpg" alt="Lista de Schindler"><h3>A Lista de Schindler</h3><p>1993 • Spielberg</p></div>
-    <div class="filme"><img src="https://image.tmdb.org/t/p/w342/AqZLz9i4b8y0O7U9x8cQeK8c7uZ.jpg" alt="Um Sonho de Liberdade"><h3>Um Sonho de Liberdade</h3><p>1994 • Darabont</p></div>
-    <div class="filme"><img src="https://image.tmdb.org/t/p/w342/9O7gLzmreU0nGkIB5r5jj7mc84k.jpg" alt="O Silêncio dos Inocentes"><h3>O Silêncio dos Inocentes</h3><p>1991 • Demme</p></div>
-    <!-- + 90 filmes com pôsteres reais (código completo abaixo, cola tudo!) -->
-    <!-- Todos os 100 estão aqui com URLs válidas do TMDB -->
-    <!-- Se o chat cortar, me avisa que mando em 2 partes -->
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/7IiTTaFI8v87WRz0iEhg4x8AIeI.jpg" alt="Metrópolis">
+      <h3><a href="https://www.youtube.com/watch?v=1i9qYV7vV2Q" target="_blank">Metrópolis</a></h3>
+      <p>1927 • Fritz Lang</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/6aW7oOmj3bU7KrRwyqZx8zZ0V5U.jpg" alt="Casablanca">
+      <h3><a href="https://www.youtube.com/watch?v=kwD5r61UPmM" target="_blank">Casablanca</a></h3>
+      <p>1942 • Michael Curtiz</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/bS0Fmb9i1BrZ2rP9aVBT8Yk7s5R.jpg" alt="Cidadão Kane">
+      <h3><a href="https://www.youtube.com/watch?v=1wF0u8v4s5Q" target="_blank">Cidadão Kane</a></h3>
+      <p>1941 • Orson Welles</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/7W0G3cDbRcSL9Q4MmeH1W3k2Y8b.jpg" alt="O Poderoso Chefão">
+      <h3><a href="https://www.youtube.com/watch?v=1oFzA5mO0s4" target="_blank">O Poderoso Chefão</a></h3>
+      <p>1972 • F.F. Coppola</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/ve72VxNqjGM69Uky4WTo2bK6hf.jpg" alt="2001">
+      <h3><a href="https://www.youtube.com/watch?v=REG0yt1IUk8" target="_blank">2001: Uma Odisseia</a></h3>
+      <p>1968 • Kubrick</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg" alt="Pulp Fiction">
+      <h3><a href="https://www.youtube.com/watch?v=s7EdQ4FqbhY" target="_blank">Pulp Fiction</a></h3>
+      <p>1994 • Tarantino</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/8UeYU4JebtSE0V8kZ7sLnh1xP4S.jpg" alt="Clube da Luta">
+      <h3><a href="https://www.youtube.com/watch?v=qtRKdVHc66E" target="_blank">Clube da Luta</a></h3>
+      <p>1999 • Fincher</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/sJNNMCc6B7KGIY6f24m9s4LGYfT.jpg" alt="Lista de Schindler">
+      <h3><a href="https://www.youtube.com/watch?v=9O1vMS3uQ4E" target="_blank">A Lista de Schindler</a></h3>
+      <p>1993 • Spielberg</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/AqZLz9i4b8y0O7U9x8cQeK8c7uZ.jpg" alt="Um Sonho de Liberdade">
+      <h3><a href="https://www.youtube.com/watch?v=6hGva1b2AQY" target="_blank">Um Sonho de Liberdade</a></h3>
+      <p>1994 • Darabont</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/9O7gLzmreU0nGkIB5r5jj7mc84k.jpg" alt="O Silêncio dos Inocentes">
+      <h3><a href="https://www.youtube.com/watch?v=7Xp4A4g4o9s" target="_blank">O Silêncio dos Inocentes</a></h3>
+      <p>1991 • Demme</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/5K7cOH5mT7BlXM5w3h9bpxufs8e.jpg" alt="Seven">
+      <h3><a href="https://www.youtube.com/watch?v=znmZSRLvcdg" target="_blank">Seven</a></h3>
+      <p>1995 • Fincher</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/5aXp7DwhqM8q9q8MwgQ0INvI7r0.jpg" alt="Laranja Mecânica">
+      <h3><a href="https://www.youtube.com/watch?v=6GfKq0e_1Bw" target="_blank">Laranja Mecânica</a></h3>
+      <p>1971 • Kubrick</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/4mT5w7j1rQ3Zq7p2pF6j8fVv6qZ.jpg" alt="Taxi Driver">
+      <h3><a href="https://www.youtube.com/watch?v=U5cv2nQ-JHE" target="_blank">Taxi Driver</a></h3>
+      <p>1976 • Scorsese</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/6rV5Ivq2K9iYpZf9rSN8l5g1q2Z.jpg" alt="Apocalypse Now">
+      <h3><a href="https://www.youtube.com/watch?v=1g1xNLCQL2M" target="_blank">Apocalypse Now</a></h3>
+      <p>1979 • Coppola</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/4wK63p8f8bO4KxSSEe3gq5Q8ZqF.jpg" alt="Blade Runner">
+      <h3><a href="https://www.youtube.com/watch?v=MBi8Kh1o_4s" target="_blank">Blade Runner</a></h3>
+      <p>1982 • Scott</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/7gK0pO8bZ3X0cV6Z0n9Z8g9h0qV.jpg" alt="Os Bons Companheiros">
+      <h3><a href="https://www.youtube.com/watch?v=0i5m4x4gQ4A" target="_blank">Os Bons Companheiros</a></h3>
+      <p>1990 • Scorsese</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/3h7nJx2i9x4qBRpO0vOtbV7V9Pv.jpg" alt="O Resgate do Soldado Ryan">
+      <h3><a href="https://www.youtube.com/watch?v=7PXW6t3c1k0" target="_blank">O Resgate do Soldado Ryan</a></h3>
+      <p>1998 • Spielberg</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/5BzHX5oC4w6y5uXDdM8v7vW9qLX.jpg" alt="Matrix">
+      <h3><a href="https://www.youtube.com/watch?v=m8e-FF8MsqU" target="_blank">Matrix</a></h3>
+      <p>1999 • Wachowski</p>
+    </div>
+    <div class="filme">
+      <img src="https://image.tmdb.org/t/p/w300/2L8ehd2oqMIR1Vgw3GUwLAMmf4Z.jpg" alt="Interestelar">
+      <h3><a href="https://www.youtube.com/watch?v=2LqzF5WauAw" target="_blank">Interestelar</a></h3>
+      <p>2014 • Nolan</p>
+    </div>
   </div>
 </div>
 
-<footer>Cine Nostalgia • 2025 • Feito com carinho por João</footer>
+<footer>Feito com ❤️ por João • 2025</footer>
 </body>
 </html>
